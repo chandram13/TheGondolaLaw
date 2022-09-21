@@ -3,6 +3,8 @@
 
 from re import L, X
 from sympy import *
+import math
+
 
 x = Symbol ("x")
 t = Symbol("t")
@@ -18,7 +20,7 @@ def gondolaLaw(N):
 
 def finding_linear_speed(w,r,v):
 # finding revolutions
-assert newW == w * (2 * 3.14) / 1
+    assert newW == w * (2 * 3.14) / 1
 
 assert v == (r * newW) * (60 / 1) # converting to mi/hr
 
@@ -38,7 +40,6 @@ class firstTension:
 def resultingTensions(): # divide results based from above classes
     # def secondxDirection(T2) / def firstxDirection(T2)
     # assert 0 == def secondyDirection(T1) - def firstyDirection(T1) - 25,000 
-
-
-def thirdTension(T2,T1):
-    T2 - T1
+    
+    def thirdTension(T2,T1):
+        T2 - T1

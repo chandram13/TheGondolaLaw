@@ -37,9 +37,5 @@ class firstTension:
     def firstyDirection(T2):
         T2 * math.degrees(sin(40))
 
-def resultingTensions(): # divide results based from above classes
-    # def secondxDirection(T2) / def firstxDirection(T2)
-    # assert 0 == def secondyDirection(T1) - def firstyDirection(T1) - 25,000 
-    
     def thirdTension(T2,T1):
         T2 - T1
